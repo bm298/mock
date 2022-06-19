@@ -1,0 +1,66 @@
+/*----------------------------Header and Body----------------*/
+/*At the end of the css you've got to copy and paste it in to an "airbnb2.css" file so u can reuse app.css*/
+body{
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .nav{
+  box-shadow: 0px 5px 10px -5px rgb(180, 178, 178);
+  }
+  
+  .logo1{
+    width: 50px;
+    margin: 15px 30px;
+  }
+  
+  
+  /*----------------------------Background----------------*/
+  .backgroundimg{
+    background-repeat: no-repeat;
+    height: 100px;
+    margin: 20px 30px;
+  }
+  /*----------------------------Online Experiences----------------*/
+  .OnlineEx{
+  margin: 20px 30px;
+  }
+  
+  .OnlineEx h3{
+  font-weight: 900;
+  font-size: 25px;
+  margin: 0;
+  }
+  
+  .OnlineEx p{
+   margin-right: 60px;
+  }
+  /*----------------------------CardComp----------------*/
+  .joint{
+  
+    display: flex;
+  }
+  
+  
+  .CardComp{
+    margin: 30px;
+    font-size: 12px;
+  
+  }
+  
+  .card{
+  
+  }
+  
+  img.star{
+    width: 20px;
+    height: 15px;
+  
+  }
+  
+  .cardimg{
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+  }
+  

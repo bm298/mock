@@ -1,0 +1,374 @@
+/*----------------------------Beg of airbnb2----------------*/
+html{
+  scroll-behavior: smooth;
+}
+
+.body{
+  margin: 0px;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.bodyDark{
+  margin: 0px;
+  font-family: sans-serif;
+  background: #222222; 
+  color:white;
+}
+
+.container2{
+  margin: 0px 100px;
+}
+
+.nav{
+  box-shadow: 0px 5px 10px -5px rgb(180, 178, 178);
+  display: flex;
+  align-items: center;
+  padding: 15px 100px 15px 100px;
+  }
+
+.searchBar{
+  width: 300px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px 50px;
+  padding: 5px;
+  border: solid rgb(205, 201, 201) 1px;
+  margin: auto;
+  box-shadow: 0px 5px 10px -5px rgb(180, 178, 178);
+}
+
+.fafafa{
+  background-color: #ff4d4d;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+}
+
+.search{
+  font-size: 1.1em;
+  width: 220px;
+  height: 30px;
+  border: none;
+  outline: none;
+  margin-left: 4%;
+}
+
+.searchDark{
+  font-size: 1.1em;
+  width: 220px;
+  height: 30px;
+  border: none;
+  outline: none;
+  margin-left: 4%;
+  background: #222222;
+}
+
+.logo1{
+  width: 60px;
+}
+
+.toggleSliderCircle{
+  height: 15px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50px 50px;
+  padding: 2px 2px 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toggleSliderCircleDark{
+  height: 15px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50px 50px;
+  padding: 2px 2px 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.toggleSliderCircle2{
+  height: 11px;
+  width: 11px;
+  background-color:white;
+  border-radius: 50%;
+}
+
+.toggleSliderCircle2Dark{
+  height: 12px;
+  width: 13px;
+  background-color:black;
+  border-radius: 50%;
+}
+
+.switch{
+  margin-right: 10px;
+}
+
+.switchDark{
+  margin-right: 10px;
+  color: white;
+}
+
+/*----------------------------Background----------------*/
+.background{  
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.txtOverlay{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+}
+
+.backgroundimg{
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  margin: 30px 0px;
+  border-radius: 5%;
+  filter: brightness(80%); 
+}
+
+.backgroundimg:hover{
+  box-shadow: 0px 5px 10px -5px rgb(180, 178, 178);
+  filter: brightness(50%); 
+  transition:all 0.5s ease;
+}
+
+/*----------------------------Online Experiences----------------*/
+.OnlineEx{
+  padding: 30px;
+}
+
+.OnlineEx h3{
+font-weight: 900;
+font-size: 3em;
+margin: 0;
+display: flex;
+justify-content: center;
+}
+
+.OnlineEx p{
+ margin-right: 60px;
+ display: flex;
+ font-size: 1.5em;
+justify-content: center;
+}
+
+/*----------------------------CardComp----------------*/
+.joint{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.cardimg{
+  height: 400px;
+  width: 350px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.cardimg:hover{
+box-shadow: 1px 1px 5px 1px rgb(146, 140, 140);
+opacity: 0.8;
+}
+
+.cardHeartOverlay{
+  position: relative;
+}
+
+.heartOverlay{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 1.6em;
+  stroke: white;
+  stroke-width: 30;
+  cursor: pointer;
+}
+
+.heartOverlayDark{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 1.6em;
+  color: red;
+  stroke: white;
+  stroke-width: 30;
+  cursor: pointer;
+}
+
+.CardComp{
+  font-size: 1em;
+  }
+
+img.star{
+  width: 20px;
+  height: 15px;
+}
+
+.title{
+  color:grey
+}
+
+.price{
+  text-decoration: underline;
+}
+/*-------------------Footer-----------*/
+.homeAirbnb2{
+  display: flex;
+  justify-content: center;
+}
+
+.travelBtn{
+  font-size: 1.3em;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px 50px;
+  color: white;
+  background-color: #222222;
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+}
+
+.darkTravelBtn{
+  font-size: 1.3em;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px 50px;
+  color: black;
+  background-color: white;
+  position: fixed;
+  bottom: 60px;
+  right: 10px; 
+}
+
+.footer{
+height: 50px;
+width: 100%;
+background-color:#EBEBEB;
+display: flex;
+position: fixed;
+bottom: 0;
+right: 0;
+border: solid 1px #EBEBEB;
+}
+
+.footerDark{
+  height: 50px;
+  width: 100%;
+  background-color: #222222;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: solid 1px #EBEBEB;
+
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 50px;
+  align-items: center;
+  padding-left: 0px;
+  margin-left: 100px;
+}
+
+.liLight{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black
+}
+
+.liDark{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white
+}
+
+
+
+/*-------------------End of Airbnb-----------*/
+/*------------------------------*/
+
+/* body{
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.encapsulate{
+margin: 20px;
+max-width:150px;
+}
+
+.face2{
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+}
+
+.starRating, .reviewTotal, .country{
+  display: inline-flex;
+  margin: 0px 2px;
+  opacity: 0.6;
+}
+ */
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/******************New one****************/

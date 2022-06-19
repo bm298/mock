@@ -1,0 +1,82 @@
+body{
+    color: white;
+    }
+    /*------------Header Section------------*/
+    header{
+     background-color: rgb(154, 63, 154); 
+    }
+    
+    .nav{
+      display: flex;
+      align-items: center;
+      padding: 25px;
+      box-shadow: 0px 5px 10px -5px rgb(154, 63, 154);
+      
+    }
+    
+    h2{
+      margin: 0;
+      font-weight: 600;
+    
+    }
+    
+    .pReact{
+      margin: 0;
+      margin-left: auto;
+      font-size: 14px;
+      opacity: 0.5;
+    }
+    
+    /*------------Input Section------------*/
+    .inputEl{
+    margin: 30px 20px 5px 20px;
+    }
+    
+    .fname{
+    padding: 5px 15px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    opacity: 0.5;
+    }
+    
+    .lname{
+      padding: 5px 15px;
+      margin: 10px 20px;
+      border-radius: 10px;
+      border: 1px solid grey;
+      opacity: 0.5;
+    }
+    
+    /*------------Input Section------------*/
+    .newImage{
+    }
+    
+    .imgBtn{
+      background-color: rgb(154, 63, 154); 
+      border: 0;
+      color: white;
+      margin: 20px;
+      width: 100%;
+      padding: 15px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor:grab;
+        box-shadow: 0px 5px 10px -5px rgb(154, 63, 154);
+        max-width: 480px;
+    
+    }
+    
+    .create{
+      color: black;
+    }
+    
+    .memeImg{
+      width: 400px;
+      height: 400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 92%;
+    }
+    

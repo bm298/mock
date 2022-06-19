@@ -1,0 +1,193 @@
+/* body{
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.encapsulate{
+margin: 20px;
+max-width:150px;
+}
+
+.face2{
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+}
+
+.starRating, .reviewTotal, .country{
+  display: inline-flex;
+  margin: 0px 2px;
+  opacity: 0.6;
+}
+ */
+/*/////////////----------beg of new page---////////*/
+
+body{
+  min-height:100vh;
+}
+
+
+.nextPageBody{
+  background: white;
+  color:black;
+  margin: 0px;
+  font-family:sans-serif;
+}
+
+.nextPageBodyDark{
+  background:#222222;
+  color:white;
+  margin: 0px;
+  font-family:sans-serif
+}
+
+.topBar{
+  background-color: #ff4d4d;
+  border-radius:2px;
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+}
+
+.topBarDark{
+background-color: rgb(94, 89, 89);
+border-radius:2px;
+display: flex;
+align-items: center ;
+justify-content: center;
+}
+
+.totalTopBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: auto;
+}
+
+.nextPageSwitch{
+margin-right: 5px;
+}
+.nextPageSwitchDark{
+  margin-right: 5px;
+}
+
+.nextPageToggleSliderCircle{
+  height: 15px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50px 50px;
+  padding: 2px 2px 0px;
+  margin-right: 15px;
+  display: flex;
+justify-content: flex-end;
+}
+.nextPageToggleSliderCircleDark{
+  height: 15px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50px 50px;
+  padding: 2px 2px 0px;
+  margin-right: 15px;
+}
+
+.nextPageToggleSliderCircle2{
+height: 11px;
+width: 11px;
+background-color:white;
+border-radius: 50%;
+}
+.nextPageToggleSliderCircle2Dark{
+  height: 12px;
+  width: 13px;
+  background-color:black;
+  border-radius: 50%;
+  }
+
+
+.globe1{
+  font-size: 20px;
+  display: inline-block;
+}
+
+h4{
+display: inline-block;
+padding-left: 5px;
+font-weight: 400;
+}
+/*--------------CardsComp---------------------------------------------------------*/
+.travelImg{
+  width: 170px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.compact{
+display: flex;
+margin: 50px 100px;
+}
+
+.country{
+margin: 0px 5px;
+}
+
+.maps{
+  display: flex;
+}
+
+.pin{
+  color: #ff4d4d;
+  font-size: 16px;
+}
+
+.allInfo, p{
+  font-size: 14px; 
+}
+
+.allInfo{
+  padding: 20px;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/******************New one****************/
